@@ -2,4 +2,4 @@
 
 Projeto em construção!
 
-<img src= "/Lambda Produtos-NodeJs-ApiGateway-Cognito-DynamoDB/terraform/images/projeto.jpg">
+<img src= "/terraform/images/projeto.jpg">
