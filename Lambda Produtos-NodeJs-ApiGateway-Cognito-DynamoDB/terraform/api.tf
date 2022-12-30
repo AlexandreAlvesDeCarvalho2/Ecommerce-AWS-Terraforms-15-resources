@@ -1,8 +1,3 @@
-variable "Client" {
-  type = map(object({ name = "admin, methods = "ANY"})),
-  type = map(object({ name = "user, methods = "GET"}))
-}
-
 resource "aws_api_gateway_rest_api" "this" {
   name = var.service_name
 }

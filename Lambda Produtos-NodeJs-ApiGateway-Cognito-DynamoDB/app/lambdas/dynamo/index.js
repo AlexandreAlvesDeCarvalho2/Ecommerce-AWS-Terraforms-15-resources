@@ -3,8 +3,9 @@
 const AWS = require('aws-sdk')
 const dynamo = new AWS.DynamoDB.DocumentClient()
 
-// Normalizar entrada, pois irá receber eventos tanto da API quanto do Topico SNS.
+// exemplo de metodo caso precise Normalizar entrada, ex: Topico SNS.
 const normalizeEvent = (event) => {
+
     // SNS
     if (event.Records) {
         return {
